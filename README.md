@@ -1,4 +1,6 @@
-# Solo Project
+# Solo Project - Takeaway Challenge
+
+## Challenge Description
 
 Here is a project to test your golden square skills overall:
 
@@ -25,14 +27,28 @@ doubles too.
 Fair warning: if you push your Twilio API Key to a public Github repository,
 anyone will be able to see and use it. What are the security implications of
 that? How will you keep that information out of your repository?
-
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fgolden-square&prefill_File=projects%2FREADME.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fgolden-square&prefill_File=projects%2FREADME.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fgolden-square&prefill_File=projects%2FREADME.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fgolden-square&prefill_File=projects%2FREADME.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fgolden-square&prefill_File=projects%2FREADME.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->
+  
+## Project Description
+  
+This project uses multiple interacting classes that allow a user to:  
+> Create dishes  
+> Dishes have a name, description, price and category (such as starter, main, etc)  
+>   
+> Create a menu out of the dishes that have been created  
+> Menus can -add/remove dishes  
+>           -be viewed one category at a time  
+>           -be viewed sorted by category  
+>   
+> Create orders out the dishes that have been created  
+> Orders can -have dishes added/removed (multiple dishes at a time)  
+>             -be viewd, including the quantity of each item  
+>   
+> Create a receipt based on an order  
+> Receipts can -show the user an itemised receipt including each items cost, service charge, and total cost  
+>              -allow the user to adjust the service charge percentage  
+>              -confirm an order, creating a text  
+>   
+> Text a customer to confirm their order and delivery time  
+>   
+> For an example user experience use ruby run.rb  
+> To use the text service, replace the environment variables ascociated with the Twilio account, and the recievers phone number.  
