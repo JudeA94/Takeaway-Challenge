@@ -29,7 +29,7 @@ anyone will be able to see and use it. What are the security implications of
 that? How will you keep that information out of your repository?
   
 ## Project Description
-  
+This projects purpose was to practice test driven development, using doubles for testing and object oriented programing.  
 This project uses multiple interacting classes that allow a user to:  
 > Create dishes  
 > Dishes have a name, description, price and category (such as starter, main, etc)  
