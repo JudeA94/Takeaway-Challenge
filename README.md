@@ -41,7 +41,7 @@ This project uses multiple interacting classes that allow a user to:
 >   
 > Create orders out the dishes that have been created  
 > Orders can -have dishes added/removed (multiple dishes at a time)  
->             -be viewd, including the quantity of each item  
+>             -be viewed, including the quantity of each item  
 >   
 > Create a receipt based on an order  
 > Receipts can -show the user an itemised receipt including each items cost, service charge, and total cost  
